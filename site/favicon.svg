@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <!-- Shield background -->
+  <path d="M32 4 L8 14 L8 34 C8 48 18 58 32 62 C46 58 56 48 56 34 L56 14 Z" fill="#1D3327"/>
+  <!-- Gold accent border -->
+  <path d="M32 8 L12 17 L12 34 C12 46 20 55 32 59 C44 55 52 46 52 34 L52 17 Z" fill="none" stroke="#B79615" stroke-width="1.5"/>
+  <!-- H letter -->
+  <text x="32" y="44" font-family="Georgia, serif" font-size="26" font-weight="700" fill="#B79615" text-anchor="middle">H</text>
+</svg>

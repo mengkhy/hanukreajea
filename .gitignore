@@ -1,0 +1,19 @@
+# macOS
+.DS_Store
+**/.DS_Store
+
+# Node
+node_modules/
+package-lock.json
+
+# Build tools / local config
+src/
+tailwind.config.js
+claude-seo-marketplace/
+.claude/
+
+# Documents / assets not needed in deployment
+*.pdf
+*.docx
+*.md
+DARKGREEN@4x.png

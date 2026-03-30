@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://www.hanukreajea.com/sitemap.xml
+
+# Disallow admin or private directories if added later
+# Disallow: /admin/
