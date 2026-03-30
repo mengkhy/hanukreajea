@@ -1,0 +1,13 @@
+{
+  "name": "hanukreajea-website",
+  "version": "1.0.0",
+  "description": "HANUKREAJEA Business Solution website",
+  "scripts": {
+    "build:css": "tailwindcss -i ./src/input.css -o ./site/css/tailwind.min.css --minify",
+    "watch:css": "tailwindcss -i ./src/input.css -o ./site/css/tailwind.min.css --watch",
+    "dev": "npx -y live-server site"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.4.0"
+  }
+}
