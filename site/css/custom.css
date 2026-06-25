@@ -1310,10 +1310,10 @@ section.section-dark {
 }
 
 .card-dark {
-  background: linear-gradient(145deg, #1D3327, #243D2E) !important;
+  background: linear-gradient(145deg, #1D4A8A, #243D6E) !important;
   border-radius: 16px !important;
   padding: 28px !important;
-  border: 1px solid rgba(183, 150, 21, 0.15) !important;
+  border: 1px solid rgba(244, 196, 27, 0.18) !important;
   transition: box-shadow 0.25s ease, transform 0.25s ease;
 }
 
@@ -1351,15 +1351,15 @@ div[class*="w-12"][class*="h-12"][class*="bg-gold"] {
 }
 
 .btn-primary {
-  background: linear-gradient(135deg, #B79615 0%, #D4B94E 100%) !important;
-  color: #fff !important;
+  background: linear-gradient(135deg, #F4C41B 0%, #F7D040 100%) !important;
+  color: #132F60 !important;
   border: none !important;
-  box-shadow: 0 4px 14px rgba(183,150,21,0.30) !important;
+  box-shadow: 0 4px 14px rgba(244,196,27,0.35) !important;
 }
 
 .btn-primary:hover {
-  background: linear-gradient(135deg, #A08512 0%, #C4A940 100%) !important;
-  box-shadow: 0 8px 22px rgba(183,150,21,0.40) !important;
+  background: linear-gradient(135deg, #C49A14 0%, #E0B81A 100%) !important;
+  box-shadow: 0 8px 22px rgba(244,196,27,0.45) !important;
   transform: translateY(-1px);
 }
 
@@ -1406,7 +1406,7 @@ section[style*="bg-white"] h2 {
    gradient + consistent spacing.
    ─────────────────────────────────────────── */
 section.section-dark:last-of-type,
-section[style*="#1D3327"]:last-of-type {
+section[style*="#1D4A8A"]:last-of-type {
   padding-top: 80px;
   padding-bottom: 80px;
 }
@@ -1460,10 +1460,10 @@ div[class*="rounded-xl"] {
 
 /* ─── 13. ADVISORY SECTION BG TONE ──────────
    bg-evergreen-50 on team/advisory sections
-   gets a subtle tint matching brand palette.
+   gets a subtle tint matching Bodiatrade palette.
    ─────────────────────────────────────────── */
 .bg-evergreen-50 {
-  background-color: #EFF4F1 !important;
+  background-color: #EEF3FB !important;
 }
 
 /* ─── 14. STATS SECTION RHYTHM ───────────────
@@ -1473,7 +1473,7 @@ div[class*="rounded-xl"] {
   font-size: 3rem !important;
   font-weight: 700 !important;
   font-family: var(--font-serif), serif !important;
-  background: linear-gradient(135deg, #B79615, #D4B94E);
+  background: linear-gradient(135deg, #F4C41B, #F7D040);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -1524,8 +1524,8 @@ nav[aria-label="Breadcrumb"] a:hover {
 }
 
 .feature-card:hover {
-  border-color: rgba(183, 150, 21, 0.25) !important;
-  box-shadow: 0 16px 40px -8px rgba(29, 51, 39, 0.10) !important;
+  border-color: rgba(244, 196, 27, 0.28) !important;
+  box-shadow: 0 16px 40px -8px rgba(29, 74, 138, 0.12) !important;
   transform: translateY(-3px) !important;
 }
 
@@ -1547,7 +1547,7 @@ nav[aria-label="Breadcrumb"] a:hover {
    .gold-shimmer divider line.
    ─────────────────────────────────────────── */
 .gold-shimmer {
-  background: linear-gradient(90deg, #B79615, #D4B94E, #B79615) !important;
+  background: linear-gradient(90deg, #F4C41B, #F7D040, #F4C41B) !important;
   background-size: 200% auto !important;
   animation: shimmer 3s linear infinite !important;
 }
@@ -1561,10 +1561,10 @@ nav[aria-label="Breadcrumb"] a:hover {
    Dark card on contact page.
    ─────────────────────────────────────────── */
 .card-dark {
-  background: linear-gradient(145deg, var(--evergreen) 0%, #243D2F 100%) !important;
+  background: linear-gradient(145deg, var(--evergreen) 0%, #1A3B6E 100%) !important;
   border-radius: 16px !important;
   padding: 32px !important;
-  border: 1px solid rgba(183, 150, 21, 0.15) !important;
+  border: 1px solid rgba(244, 196, 27, 0.18) !important;
 }
 
 /* ─── 21. HERO INNER STANDARD ────────────────
@@ -1574,9 +1574,9 @@ nav[aria-label="Breadcrumb"] a:hover {
 .hero-inner {
   position: relative;
   min-height: 400px;
-  padding-top: 160px !important; /* 80px (header) + 80px (safety) */
+  padding-top: 160px !important;
   padding-bottom: 96px !important;
-  background: linear-gradient(135deg, #1D3327 0%, #2D4D3F 100%) !important;
+  background: linear-gradient(135deg, #1D4A8A 0%, #2A5CA8 100%) !important;
   overflow: hidden;
 }
 
@@ -1624,15 +1624,15 @@ nav[aria-label="Breadcrumb"] a:hover {
 .section-cta-banner {
   padding-top: 96px;
   padding-bottom: 96px;
-  background: linear-gradient(135deg, #1D3327 0%, #2D4A3F 60%, #1D3327 100%);
+  background: linear-gradient(135deg, #1D4A8A 0%, #2A5CA8 60%, #1D4A8A 100%);
 }
 
 .section-cta-banner-bg {
   position: absolute;
   inset: 0;
   background:
-    radial-gradient(ellipse 60% 80% at 10% 50%, rgba(183,150,21,0.07) 0%, transparent 70%),
-    radial-gradient(ellipse 50% 70% at 90% 50%, rgba(183,150,21,0.05) 0%, transparent 70%);
+    radial-gradient(ellipse 60% 80% at 10% 50%, rgba(244,196,27,0.08) 0%, transparent 70%),
+    radial-gradient(ellipse 50% 70% at 90% 50%, rgba(92,167,227,0.06) 0%, transparent 70%);
   pointer-events: none;
 }
 
