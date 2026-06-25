@@ -1,5 +1,5 @@
 /* ============================================
-   HANUKREAJEA — Shared Components
+   BODIATRADE — Shared Components
    Injects Header, Footer, Mobile Nav into every page
    ============================================ */
 
@@ -45,7 +45,7 @@ function renderHeader() {
         <div class="flex items-center justify-between h-20">
           <!-- Logo -->
           <a href="${getUrl('index.html')}" class="flex items-center gap-3 shrink-0 group">
-            <img src="${getUrl('images/logo-dark.webp')}" alt="Hanukreajea Logo" class="w-auto transition-transform duration-300 group-hover:scale-105" id="nav-logo" style="height: 48px;">
+            <img src="${getUrl('images/logo-bodiatrade.jpg')}" alt="Bodiatrade Logo" class="w-auto transition-transform duration-300 group-hover:scale-105" id="nav-logo" style="height: 48px;">
           </a>
           <!-- Desktop Nav -->
           <div class="hidden lg:flex items-center gap-8" id="nav-links-container">
@@ -138,10 +138,10 @@ function renderHeader() {
     <div class="mobile-nav" id="mobile-nav">
       <div class="flex items-center justify-between mb-10">
         <div class="flex items-center gap-3">
-          <img src="${getUrl('images/logo-dark.webp')}" alt="Hanukreajea Logo" style="height: 44px; width: auto;">
+          <img src="${getUrl('images/logo-bodiatrade.jpg')}" alt="Bodiatrade Logo" style="height: 44px; width: auto;">
           <div class="flex flex-col justify-center">
-            <span class="font-serif font-bold text-lg leading-none tracking-wide text-gold-500">HANUKREAJEA</span>
-            <span class="text-[9px] font-bold tracking-[0.2em] text-gold-500/80 uppercase mt-1">Business Solution</span>
+            <span class="font-serif font-bold text-lg leading-none tracking-wide text-gold-500">BODIATRADE</span>
+            <span class="text-[9px] font-bold tracking-[0.2em] text-gold-500/80 uppercase mt-1">Trading Company</span>
           </div>
         </div>
         <button id="mobile-close" class="p-2" aria-label="Close menu">
@@ -151,18 +151,18 @@ function renderHeader() {
         </button>
       </div>
       <div class="flex flex-col gap-1">
-        <a href="${getUrl('index.html')}" class="block py-3 px-4 rounded-lg text-lg font-medium ${isActive('index.html') ? 'bg-amber-50 text-amber-700' : 'text-gray-700 hover:bg-gray-50'}">Home</a>
-        <a href="${getUrl('services-consulting.html')}" class="block py-3 px-4 rounded-lg text-lg font-medium ${isActive('services-consulting.html') ? 'bg-amber-50 text-amber-700' : 'text-gray-700 hover:bg-gray-50'}">Business Consulting</a>
-        <a href="${getUrl('services-company-registration.html')}" class="block py-3 px-4 rounded-lg text-lg font-medium ${isActive('services-company-registration.html') ? 'bg-amber-50 text-amber-700' : 'text-gray-700 hover:bg-gray-50'}">Company Registration</a>
-        <a href="${getUrl('services-tax-compliance.html')}" class="block py-3 px-4 rounded-lg text-lg font-medium ${isActive('services-tax-compliance.html') ? 'bg-amber-50 text-amber-700' : 'text-gray-700 hover:bg-gray-50'}">Tax Compliance</a>
-        <a href="${getUrl('services-labor-law.html')}" class="block py-3 px-4 rounded-lg text-lg font-medium ${isActive('services-labor-law.html') ? 'bg-amber-50 text-amber-700' : 'text-gray-700 hover:bg-gray-50'}">Labor Law Compliance</a>
-        <a href="${getUrl('services-trade.html')}" class="block py-3 px-4 rounded-lg text-lg font-medium ${isActive('services-trade.html') ? 'bg-amber-50 text-amber-700' : 'text-gray-700 hover:bg-gray-50'}">Agricultural Trade</a>
-        <a href="${getUrl('about.html')}" class="block py-3 px-4 rounded-lg text-lg font-medium ${isActive('about.html') ? 'bg-amber-50 text-amber-700' : 'text-gray-700 hover:bg-gray-50'}">About</a>
-        <a href="${getUrl('team.html')}" class="block py-3 px-4 rounded-lg text-lg font-medium ${isActive('team.html') ? 'bg-amber-50 text-amber-700' : 'text-gray-700 hover:bg-gray-50'}">Team</a>
-        <a href="${getUrl('blog.html')}" class="block py-3 px-4 rounded-lg text-lg font-medium ${isActive('blog.html') ? 'bg-amber-50 text-amber-700' : 'text-gray-700 hover:bg-gray-50'}">Insights</a>
-        <a href="${getUrl('case-studies.html')}" class="block py-3 px-4 rounded-lg text-lg font-medium ${isActive('case-studies.html') ? 'bg-amber-50 text-amber-700' : 'text-gray-700 hover:bg-gray-50'}">Case Studies</a>
-        <a href="${getUrl('faq.html')}" class="block py-3 px-4 rounded-lg text-lg font-medium ${isActive('faq.html') ? 'bg-amber-50 text-amber-700' : 'text-gray-700 hover:bg-gray-50'}">FAQ</a>
-        <a href="${getUrl('contact.html')}" class="block py-3 px-4 rounded-lg text-lg font-medium ${isActive('contact.html') ? 'bg-amber-50 text-amber-700' : 'text-gray-700 hover:bg-gray-50'}">Contact</a>
+        <a href="${getUrl('index.html')}" class="block py-3 px-4 rounded-lg text-lg font-medium ${isActive('index.html') ? 'bg-gold-50 text-evergreen-500 font-semibold' : 'text-gray-700 hover:bg-gold-50 hover:text-evergreen-500'}">Home</a>
+        <a href="${getUrl('services-consulting.html')}" class="block py-3 px-4 rounded-lg text-lg font-medium ${isActive('services-consulting.html') ? 'bg-gold-50 text-evergreen-500 font-semibold' : 'text-gray-700 hover:bg-gold-50 hover:text-evergreen-500'}">Business Consulting</a>
+        <a href="${getUrl('services-company-registration.html')}" class="block py-3 px-4 rounded-lg text-lg font-medium ${isActive('services-company-registration.html') ? 'bg-gold-50 text-evergreen-500 font-semibold' : 'text-gray-700 hover:bg-gold-50 hover:text-evergreen-500'}">Company Registration</a>
+        <a href="${getUrl('services-tax-compliance.html')}" class="block py-3 px-4 rounded-lg text-lg font-medium ${isActive('services-tax-compliance.html') ? 'bg-gold-50 text-evergreen-500 font-semibold' : 'text-gray-700 hover:bg-gold-50 hover:text-evergreen-500'}">Tax Compliance</a>
+        <a href="${getUrl('services-labor-law.html')}" class="block py-3 px-4 rounded-lg text-lg font-medium ${isActive('services-labor-law.html') ? 'bg-gold-50 text-evergreen-500 font-semibold' : 'text-gray-700 hover:bg-gold-50 hover:text-evergreen-500'}">Labor Law Compliance</a>
+        <a href="${getUrl('services-trade.html')}" class="block py-3 px-4 rounded-lg text-lg font-medium ${isActive('services-trade.html') ? 'bg-gold-50 text-evergreen-500 font-semibold' : 'text-gray-700 hover:bg-gold-50 hover:text-evergreen-500'}">Agricultural Trade</a>
+        <a href="${getUrl('about.html')}" class="block py-3 px-4 rounded-lg text-lg font-medium ${isActive('about.html') ? 'bg-gold-50 text-evergreen-500 font-semibold' : 'text-gray-700 hover:bg-gold-50 hover:text-evergreen-500'}">About</a>
+        <a href="${getUrl('team.html')}" class="block py-3 px-4 rounded-lg text-lg font-medium ${isActive('team.html') ? 'bg-gold-50 text-evergreen-500 font-semibold' : 'text-gray-700 hover:bg-gold-50 hover:text-evergreen-500'}">Team</a>
+        <a href="${getUrl('blog.html')}" class="block py-3 px-4 rounded-lg text-lg font-medium ${isActive('blog.html') ? 'bg-gold-50 text-evergreen-500 font-semibold' : 'text-gray-700 hover:bg-gold-50 hover:text-evergreen-500'}">Insights</a>
+        <a href="${getUrl('case-studies.html')}" class="block py-3 px-4 rounded-lg text-lg font-medium ${isActive('case-studies.html') ? 'bg-gold-50 text-evergreen-500 font-semibold' : 'text-gray-700 hover:bg-gold-50 hover:text-evergreen-500'}">Case Studies</a>
+        <a href="${getUrl('faq.html')}" class="block py-3 px-4 rounded-lg text-lg font-medium ${isActive('faq.html') ? 'bg-gold-50 text-evergreen-500 font-semibold' : 'text-gray-700 hover:bg-gold-50 hover:text-evergreen-500'}">FAQ</a>
+        <a href="${getUrl('contact.html')}" class="block py-3 px-4 rounded-lg text-lg font-medium ${isActive('contact.html') ? 'bg-gold-50 text-evergreen-500 font-semibold' : 'text-gray-700 hover:bg-gold-50 hover:text-evergreen-500'}">Contact</a>
         <div class="mt-6 pt-6 border-t border-gray-200">
           <a href="${getUrl('contact.html')}" class="btn btn-primary w-full text-center">Get Started</a>
         </div>
@@ -255,13 +255,13 @@ function renderHeader() {
   function updateNavScroll() {
     if (window.scrollY > 60) {
       nav.classList.add('bg-white/95', 'backdrop-blur-md', 'shadow-sm');
-      if (navLogo) navLogo.src = getUrl('images/logo-dark.webp');
+      if (navLogo) navLogo.src = getUrl('images/logo-bodiatrade.jpg');
       if (mobileIcon) { mobileIcon.classList.remove('text-white'); mobileIcon.classList.add('text-gray-700'); }
       navLinks.forEach(link => link.style.color = 'var(--evergreen)');
     } else {
       nav.classList.remove('bg-white/95', 'backdrop-blur-md', 'shadow-sm');
-      // logo-dark.webp works on both dark and transparent backgrounds
-      if (navLogo) navLogo.src = getUrl('images/logo-dark.webp');
+      // logo-bodiatrade.jpg works on both dark and transparent backgrounds
+      if (navLogo) navLogo.src = getUrl('images/logo-bodiatrade.jpg');
       if (mobileIcon) { mobileIcon.classList.remove('text-gray-700'); mobileIcon.classList.add('text-white'); }
       navLinks.forEach(link => link.style.color = 'white');
     }
@@ -285,10 +285,10 @@ function renderFooter() {
           <!-- Brand Column -->
           <div class="lg:col-span-1">
             <a href="${getUrl('index.html')}" class="flex items-center gap-3 group mb-5 inline-flex">
-              <img src="${getUrl('images/steak-logo-png.webp')}" alt="Hanukreajea Logo" class="transition-transform duration-300 group-hover:scale-105" style="height: 80px; width: auto;">
+              <img src="${getUrl('images/logo-bodiatrade.jpg')}" alt="Bodiatrade Logo" class="transition-transform duration-300 group-hover:scale-105" style="height: 80px; width: auto;">
             </a>
             <p class="text-sm text-gray-400 leading-relaxed mb-6">
-              Bridging strategy and execution in business consulting and agricultural trade across Cambodia and the ASEAN region.
+              Bridging trade and business opportunity across Cambodia and the ASEAN region. Your trusted partner for growth.
             </p>
             <div class="flex gap-3">
               <a href="#" class="w-9 h-9 rounded-lg bg-gray-800 hover:bg-gold-600 flex items-center justify-center transition-colors has-tooltip" aria-label="Facebook">
@@ -310,11 +310,11 @@ function renderFooter() {
           <div>
             <h4 class="text-white font-semibold text-sm uppercase tracking-wider mb-5">Services</h4>
             <ul class="space-y-3 text-sm">
-              <li><a href="services-consulting.html" class="hover:text-amber-400 transition-colors">Business Consulting</a></li>
-              <li><a href="services-consulting.html#regulatory" class="hover:text-amber-400 transition-colors">Regulatory Compliance</a></li>
-              <li><a href="services-consulting.html#documentation" class="hover:text-amber-400 transition-colors">Business Documentation</a></li>
-              <li><a href="services-trade.html" class="hover:text-amber-400 transition-colors">Agricultural Trade</a></li>
-              <li><a href="services-trade.html#import-export" class="hover:text-amber-400 transition-colors">Import &amp; Export</a></li>
+              <li><a href="services-consulting.html" class="hover:text-gold-400 transition-colors">Business Consulting</a></li>
+              <li><a href="services-consulting.html#regulatory" class="hover:text-gold-400 transition-colors">Regulatory Compliance</a></li>
+              <li><a href="services-consulting.html#documentation" class="hover:text-gold-400 transition-colors">Business Documentation</a></li>
+              <li><a href="services-trade.html" class="hover:text-gold-400 transition-colors">Agricultural Trade</a></li>
+              <li><a href="services-trade.html#import-export" class="hover:text-gold-400 transition-colors">Import &amp; Export</a></li>
             </ul>
           </div>
 
@@ -322,11 +322,11 @@ function renderFooter() {
           <div>
             <h4 class="text-white font-semibold text-sm uppercase tracking-wider mb-5">Company</h4>
             <ul class="space-y-3 text-sm">
-              <li><a href="about.html" class="hover:text-amber-400 transition-colors">About Us</a></li>
-              <li><a href="team.html" class="hover:text-amber-400 transition-colors">Our Team</a></li>
-              <li><a href="blog.html" class="hover:text-amber-400 transition-colors">Insights &amp; News</a></li>
-              <li><a href="faq.html" class="hover:text-amber-400 transition-colors">FAQ</a></li>
-              <li><a href="privacy-policy.html" class="hover:text-amber-400 transition-colors">Privacy Policy</a></li>
+              <li><a href="about.html" class="hover:text-gold-400 transition-colors">About Us</a></li>
+              <li><a href="team.html" class="hover:text-gold-400 transition-colors">Our Team</a></li>
+              <li><a href="blog.html" class="hover:text-gold-400 transition-colors">Insights &amp; News</a></li>
+              <li><a href="faq.html" class="hover:text-gold-400 transition-colors">FAQ</a></li>
+              <li><a href="privacy-policy.html" class="hover:text-gold-400 transition-colors">Privacy Policy</a></li>
             </ul>
           </div>
 
@@ -335,20 +335,20 @@ function renderFooter() {
             <h4 class="text-white font-semibold text-sm uppercase tracking-wider mb-5">Contact</h4>
             <ul class="space-y-4 text-sm">
               <li class="flex items-start gap-3">
-                <svg class="w-5 h-5 text-amber-500 mt-0.5 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/></svg>
+                <svg class="w-5 h-5 text-gold-400 mt-0.5 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/></svg>
                 <span>Phnom Penh, Cambodia</span>
               </li>
               <li class="flex items-start gap-3">
-                <svg class="w-5 h-5 text-amber-500 mt-0.5 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/></svg>
-                <a href="mailto:info@hanukreajea.com" class="hover:text-amber-400 transition-colors">info@hanukreajea.com</a>
+                <svg class="w-5 h-5 text-gold-400 mt-0.5 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/></svg>
+                <a href="mailto:info@bodiatrade.com" class="hover:text-gold-400 transition-colors">info@bodiatrade.com</a>
               </li>
               <li class="flex items-start gap-3">
-                <svg class="w-5 h-5 text-amber-500 mt-0.5 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"/></svg>
-                <a href="tel:+85512345678" class="hover:text-amber-400 transition-colors">+855 12 345 678</a>
+                <svg class="w-5 h-5 text-gold-400 mt-0.5 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"/></svg>
+                <a href="tel:+85510531160" class="hover:text-gold-400 transition-colors">+855 10 531 160</a>
               </li>
               <li class="flex items-start gap-3">
                 <svg class="w-5 h-5 mt-0.5 shrink-0" fill="#229ED9" viewBox="0 0 24 24"><path d="M11.944 0A12 12 0 000 12a12 12 0 0012 12 12 12 0 0012-12A12 12 0 0012 0a12 12 0 00-.056 0zm4.962 7.224c.1-.002.321.023.465.14a.506.506 0 01.171.325c.016.093.036.306.02.472-.18 1.898-.962 6.502-1.36 8.627-.168.9-.499 1.201-.82 1.23-.696.065-1.225-.46-1.9-.902-1.056-.693-1.653-1.124-2.678-1.8-1.185-.78-.417-1.21.258-1.91.177-.184 3.247-2.977 3.307-3.23.007-.032.014-.15-.056-.212s-.174-.041-.249-.024c-.106.024-1.793 1.14-5.061 3.345-.479.33-.913.49-1.302.48-.428-.008-1.252-.241-1.865-.44-.752-.245-1.349-.374-1.297-.789.027-.216.325-.437.893-.663 3.498-1.524 5.83-2.529 6.998-3.014 3.332-1.386 4.025-1.627 4.476-1.635z"/></svg>
-                <a href="https://t.me/hanukreajea" target="_blank" rel="noopener noreferrer" class="hover:text-amber-400 transition-colors">@hanukreajea <span class="text-xs text-gray-500">(Telegram)</span></a>
+                <a href="https://t.me/bodiatrade" target="_blank" rel="noopener noreferrer" class="hover:text-gold-400 transition-colors">@bodiatrade <span class="text-xs text-gray-500">(Telegram)</span></a>
               </li>
             </ul>
           </div>
@@ -358,11 +358,11 @@ function renderFooter() {
       <!-- Bottom Bar -->
       <div class="border-t border-gray-800">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6 flex flex-col md:flex-row items-center justify-between gap-4">
-          <p class="text-xs text-gray-500">&copy; ${year} Hanukreajea Business Solution Co., Ltd. All rights reserved.</p>
+          <p class="text-xs text-gray-500">&copy; ${year} Bodiatrade Co., Ltd. All rights reserved.</p>
           <div class="flex gap-6 text-xs text-gray-500">
-            <a href="privacy-policy.html" class="hover:text-amber-400 transition-colors">Privacy Policy</a>
-            <a href="faq.html" class="hover:text-amber-400 transition-colors">FAQ</a>
-            <a href="contact.html" class="hover:text-amber-400 transition-colors">Contact</a>
+            <a href="privacy-policy.html" class="hover:text-gold-400 transition-colors">Privacy Policy</a>
+            <a href="faq.html" class="hover:text-gold-400 transition-colors">FAQ</a>
+            <a href="contact.html" class="hover:text-gold-400 transition-colors">Contact</a>
           </div>
         </div>
       </div>
@@ -390,11 +390,11 @@ function renderPreloader() {
   pre.id = 'preloader';
   pre.innerHTML = `
     <div class="preloader-inner">
-      <img src="${getUrl('images/steak-logo-png.webp')}" alt="Hanukreajea" class="preloader-logo">
+      <img src="${getUrl('images/logo-bodiatrade.jpg')}" alt="Bodiatrade" class="preloader-logo">
       <div class="preloader-bar-wrap">
         <div class="preloader-bar"></div>
       </div>
-      <p class="preloader-tagline">HANUKREAJEA BUSINESS SOLUTION</p>
+      <p class="preloader-tagline">BODIATRADE</p>
     </div>
   `;
   document.body.prepend(pre);
@@ -446,10 +446,10 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // 2. Inject real social links
     const socialLinks = {
-      facebook: 'https://www.facebook.com/hanukreajea',
-      linkedin: 'https://www.linkedin.com/company/hanukreajea',
-      telegram: 'https://t.me/hanukreajea',
-      whatsapp: 'https://wa.me/85512345678'
+      facebook: 'https://www.facebook.com/bodiatrade',
+      linkedin: 'https://www.linkedin.com/company/bodiatrade',
+      telegram: 'https://t.me/bodiatrade',
+      whatsapp: 'https://wa.me/85510531160'
     };
 
     document.querySelectorAll('a[href="#"]').forEach(a => {

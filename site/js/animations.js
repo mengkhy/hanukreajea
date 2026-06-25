@@ -1,5 +1,5 @@
 /* ============================================
-   HANUKREAJEA — Scroll Animations & Interactions
+   BODIATRADE — Scroll Animations & Interactions
    Specs: 500ms hover, 636 stiffness, 24 dampening
    IntersectionObserver for scroll-driven reveals
    ============================================ */
